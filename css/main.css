@@ -1,0 +1,118 @@
+.nav-icon ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-icon ul li {
+  padding: 20px;
+}
+.nav-icon ul li a i {
+  color: #1d9bf0;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.nav-icon ul li a i:hover {
+  background-color: #eee;
+}
+h2 {
+  text-align: center;
+}
+h2 a {
+  font-family: "Lobster", cursive;
+  font-size: 75px;
+  color: #444;
+  text-decoration: none;
+}
+.tweet-input {
+  text-align: -webkit-center;
+}
+label {
+  font-family: cursive;
+  color: #444;
+  margin-right: 10px;
+}
+[type="text"] {
+  padding: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  width: 270px;
+}
+textarea {
+  padding: 10px;
+  display: block;
+  width: 350px;
+  height: 75px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+}
+.submit {
+  background-color: #1d9bf0;
+  border: none;
+  width: 110px;
+  height: 45px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Lobster";
+  cursor: pointer;
+}
+h3 {
+  font-family: cursive;
+  margin: 20px 20px 7px 25px;
+  color: #444;
+}
+.newsfeed {
+  border: 1px solid #eee;
+  border-bottom: none;
+  margin: 0 25px 25px 25px;
+  height: 700px;
+}
+.tweet_container {
+  padding: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+.username_h {
+  font-size: 20px;
+  margin: 0;
+  color: #444;
+}
+.username_h::before {
+  content: url(../img/man.png);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.tweet_paraghraph {
+  font-size: 18px;
+  margin-left: 35px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+.actions_buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.actions_buttons .buttons {
+  list-style-type: none;
+}
+.actions_buttons .buttons i {
+  font-size: 26px;
+  cursor: pointer;
+}
